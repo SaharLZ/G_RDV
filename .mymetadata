@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="G_RDV"
+  id="myeclipse.1748864016164"
+  context-root="/G_RDV"
+  j2ee-spec="5.0"
+  archive="G_RDV.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
