@@ -8,6 +8,7 @@ public class RDV {
 	private String Date;
 	private String Heure;
 	private String Etat;
+	private String Note;
 	private Patient Patient;
 	private Ordonnance Ord;
 	public int getId() {
@@ -45,6 +46,12 @@ public class RDV {
 	}
 	public void setOrd(Ordonnance ord) {
 		Ord = ord;
+	}
+	public void setNote(String note) {
+		Note = note;
+	}
+	public String getNote() {
+		return Note;
 	}
 	public RDV(int id, String date, String heure, String etat, Patient patient,
 			Ordonnance ord) {

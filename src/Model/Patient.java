@@ -5,6 +5,11 @@ public class Patient {
 	private String Nom;
 	private String Prenom;
 	private String Date;
+	private String Blood;
+	private String Adress;
+	private String Medical_note;
+	
+	
 	public int getId() {
 		return Id;
 	}
@@ -38,6 +43,24 @@ public class Patient {
 	}	
 	public Patient() {
 	    // Constructeur vide 
+	}
+	public void setBlood(String blood) {
+		Blood = blood;
+	}
+	public String getBlood() {
+		return Blood;
+	}
+	public void setAdress(String adress) {
+		Adress = adress;
+	}
+	public String getAdress() {
+		return Adress;
+	}
+	public void setMedical_note(String medical_note) {
+		Medical_note = medical_note;
+	}
+	public String getMedical_note() {
+		return Medical_note;
 	}
 	
 }
